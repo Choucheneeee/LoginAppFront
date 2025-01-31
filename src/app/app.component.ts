@@ -1,9 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from "./navbar/navbar.component";
+import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone:true,
+  imports: [
+    RouterOutlet,
+    NavbarComponent,
+    CommonModule,
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

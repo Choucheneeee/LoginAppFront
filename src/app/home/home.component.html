@@ -1,0 +1,27 @@
+<div class="grid grid-cols-4 gap-4 mt-15 "> <!-- Remove top margin -->
+    
+    
+    <div class="bg-gray-100 min-w-100  flex items-start justify-center p-4"> <!-- Align to the top -->
+      <div class="max-w-sm w-full bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
+        <div class="relative pt-0"> <!-- Remove padding at the top -->
+          <img 
+            [src]="'/' + userimage"
+            alt="Product"
+            class="w-full h-64  object-cover"
+          />
+        </div>
+        
+        <div class="p-5 space-y-4">
+          <div>
+            <h3 class="text-xl font-bold text-gray-900">Classic T-Shirt</h3>
+            <p class="text-gray-500 mt-1">Premium cotton blend</p>
+          </div>
+          
+         <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 rounded-lg transition-colors">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
