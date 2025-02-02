@@ -7,7 +7,7 @@ export const routes: Routes = [
     {"path":'', "component":HomeComponent},
     {"path": "Login", "component": LoginComponent},
     {"path":'register', "component":RegisterComponent},
-
+    {"path":'logout', redirectTo:'Login'},
 
 
 
